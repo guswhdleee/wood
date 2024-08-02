@@ -1,0 +1,87 @@
+ /* CSS Reset */
+ h1, li, ul {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
+    padding: unset;
+ }
+
+ ul {
+   list-style-type: none;
+ }
+
+ /* Typography */
+ :root {
+    font-family: Arial;
+ }
+ 
+ /* Web Design */
+body {
+    background-image: url(./images/header-bg.png);
+    background-size: cover;
+ }
+
+ .laboratory_info {
+    width: 960px;
+    margin: 100px auto 0;
+    color: #FFA500;
+    border: 30px solid, #FFA500;
+    padding: 60px 60px 180px 60px;
+    background-image: url(./images/container-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 60px top 40%;
+ }
+
+ .laboratory_info .title {
+    font-size: 32px;
+    letter-spacing: 6.2px;
+ }
+
+ .laboratory_info .title::after {
+    display: block;
+    content: '';
+    width: 373px;
+    border: 2px solid #FFA500;
+    border-radius: 12px;
+ }
+
+ .laboratory_info .explanation {
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 420px;
+    padding-bottom: 120px;
+    line-height : 2.23; 
+ }
+
+ .laboratory_contents {
+    background-color: #ddd;
+    margin-top: -250px;
+    text-align: center;
+ }
+
+ .laboratory_contents .contents-list li {
+   display: inline-block;
+   background-color: white;
+   border-radius: 6px;
+   margin: 30px;
+   
+ }
+
+ .laboratory_contents .contents-list .lists-image {   /* 이미지 상단 radius, 하단 주황 밑줄 */
+   border-radius: 6px 6px 0 0;
+   border-bottom: 4px solid #FFA500;
+ }
+
+ .laboratory_contents .contents-list .lists-explanation{
+   font-weight: bold;
+   color: #FFA500;
+   text-align: left;
+   padding: 16px 10px 16px;
+   background-image: url(./images/play.png);
+   background-repeat: no-repeat;
+   background-position: right center;   
+ }
+
+ .laboratory_fotter {
+   background-color: red;
+ }
