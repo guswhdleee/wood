@@ -55,7 +55,7 @@ body {
 
  .laboratory_contents {
     background-color: #ddd;
-    margin-top: -250px;
+    margin-top: -255px;
     text-align: center;
  }
 
@@ -83,5 +83,12 @@ body {
  }
 
  .laboratory_fotter {
-   background-color: red;
+   border-top: 2px solid #aaa;
+   background-color: #fff;
+   color: #aaa;
+   text-align: center;
+   letter-spacing: 8px;
+   font-size: 14px;
+   padding: 19px 0;
+   font-weight: bold;
  }
